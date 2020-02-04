@@ -33,9 +33,11 @@ Status | A string indicating the result of the lookup. Either `Success` or `Fail
 NumberType | A string indicating the type of number - `Mobile`, `Landline` or `Unknown`
 
 #### Statuses
-* 200 - Success
-* 400 - Invalid Session. Please ensure you Login first
-* 400 - There was a problem with the Lookup. Please check your request and try again
+Status | Description
+------ | -----------
+200 | Success
+400 | Invalid Session. Please ensure you Login first
+400 | There was a problem with the Lookup. Please check your request and try again
 
 ### Send
 Send an SMS message anywhere in the world.
@@ -65,9 +67,11 @@ When | A date and time indicating when the message should be sent. This is
 nothing
 ```
 #### Statuses
-* 200 - Success
-* 400 - Invalid Session. Please ensure you Login first
-* 400 - The destination number is invalid
-* 400 - The destination and source cannot be the same
-* 400 - The message length must be greater than zero
-* 400 - There was a problem sending the message. Please contact OnePoint Global Support
+Status | Description
+------ | -----------
+200 | Success
+400 | Invalid Session. Please ensure you Login first
+400 | The destination number is invalid
+400 | The destination and source cannot be the same
+400 | The message length must be greater than zero
+400 | There was a problem sending the message. Please contact OnePoint Global Support

@@ -15,9 +15,11 @@ Method: POST
 { "The tiny url" }
 ```
 #### Statuses
-* 200 - Success
-* 400 - Invalid Session. Please ensure you Login first
-* 400 - There was a problem registering the tiny url
+Status | Description
+------ | -----------
+200 | Success
+400 | Invalid Session. Please ensure you Login first
+400 | There was a problem registering the tiny url
 
 ### RegisterList
 Register a list of URL's in return for a list of tiny URL's
@@ -42,6 +44,13 @@ Method: POST
 }
 ```
 #### Statuses
-* 200 - Success
-* 400 - Invalid Session. Please ensure you Login first
-* 400 - There was a problem registering the tiny url
+Status | Description
+------ | -----------
+200 | Success
+400 | Invalid Session. Please ensure you Login first
+400 | There was a problem registering the tiny url
+
+### Custom Tiny URL's
+OnePoint supports custom Tiny URL's for each user of the API.
+It is possible for you to use the standard OnePoint Tiny URL (`1pt.mobi`) or for us to register a domain and this this
+up for you account. For more information on this please contact us directly.
