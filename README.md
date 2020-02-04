@@ -42,15 +42,18 @@ Method: POST
 
 ### Statuses
 Every API will return a status which can be one of the following:
-* 200 - Success
-* 400 - Bad request. the HTTP message will vary depedning on the type of problem.
+
+Status | Description
+------ | -----------
+200 | Success
+400 | Bad request. the HTTP message will vary depedning on the type of problem
 
 ### API's
 The API's are split into the following:
-* [Account](Account.md)
-* [Keyword](Keyword.md)
-* [TinyUrl](TinyUrl.md)
-* [Message](Message.md)
-* [Survey](Survey.md)
-* [Recipient](Recipient.md)
+* [Account](Account.md) - Session Management
+* [Keyword](Keyword.md) - Keyword Management
+* [TinyUrl](TinyUrl.md) - TinyUrl Creation
+* [Message](Message.md) - SMS Message Management
+* [Survey](Survey.md) - Survey Results
+* [Recipient](Recipient.md) - Upload Recipients with deduplication and mobile number validation
 

@@ -8,10 +8,17 @@ URL: https://api.1pt.mobi/gateway/api/Account/Login
 Method: POST
 Content: { "Username":"username", "Password":"password" }
 ```
+#### Parameters
+Name | Description
+---- | -----------
+Username | The account's user name. Cannot be blank.
+Password | The account's password.
+
 #### Returns
 ```
 { "SessionId": "ABCCDEFG" }
 ```
+The `SessionId` must be used in subsquent calls by placing it in the header a value with the name `SessionId`.
 #### Statuses
 Status | Description
 ------ | -----------
@@ -26,10 +33,15 @@ URL: https://api.1pt.mobi/gateway/api/Account/LoginWithUid
 Method: POST
 Content: "Uid" }
 ```
+#### Parameters
+Name | Description
+---- | -----------
+Uid | The User Id available by logging into your account and checking your account details.
 #### Returns
 ```
 { "SessionId": "ABCCDEFG" }
 ```
+The `SessionId` must be used in subsquent calls by placing it in the header a value with the name `SessionId`.
 #### Statuses
 Status | Description
 ------ | -----------
