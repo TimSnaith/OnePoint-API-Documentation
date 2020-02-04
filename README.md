@@ -47,8 +47,8 @@ Every API will return a status which can be one of the following:
 
 ### API's
 The API's are split into the following:
-* Account
-* Keyword
+* [Account](Account.md)
+* [Keyword](Keyword.md)
 * TinyUrl
 * Message
 * Survey
