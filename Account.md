@@ -8,11 +8,11 @@ URL: https://api.1pt.mobi/gateway/api/Account/Login
 Method: POST
 Content: { "Username":"username", "Password":"password" }
 ```
-Returns
+#### Returns
 ```
 { "SessionId": "ABCCDEFG" }
 ```
-Statuses
+#### Statuses
 * 200 - Success
 * 400 - The username and/or password is incorrect
 
@@ -24,11 +24,11 @@ URL: https://api.1pt.mobi/gateway/api/Account/LoginWithUid
 Method: POST
 Content: "Uid" }
 ```
-Returns
+#### Returns
 ```
 { "SessionId": "ABCCDEFG" }
 ```
-Statuses
+#### Statuses
 * 200 - Success
 * 400 - The uid is invalid
 
@@ -40,9 +40,9 @@ Header:
 SessionId:"ABCDEFG"
 Method: POST
 ```
-Returns
+#### Returns
 nothing
-Statuses
+#### Statuses
 * 200 - Success
 * 400 - Invalid Session. Please ensure you Login first
 
