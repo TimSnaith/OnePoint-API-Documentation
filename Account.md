@@ -13,8 +13,10 @@ Content: { "Username":"username", "Password":"password" }
 { "SessionId": "ABCCDEFG" }
 ```
 #### Statuses
-* 200 - Success
-* 400 - The username and/or password is incorrect
+Status | Description
+------ + -----------
+200 | Success
+400 | The username and/or password is incorrect
 
 ### LoginWithUid
 Before any other API is used you will need a Session Id. This API requests one using the User's ID (available through the account 
@@ -29,8 +31,10 @@ Content: "Uid" }
 { "SessionId": "ABCCDEFG" }
 ```
 #### Statuses
-* 200 - Success
-* 400 - The uid is invalid
+Status | Description
+------ + -----------
+200 | Success
+400 | The uid is invalid
 
 ### Logout
 To discard a Session Id after all other API's have been used you need to logout.
@@ -43,6 +47,8 @@ Method: POST
 #### Returns
 nothing
 #### Statuses
-* 200 - Success
-* 400 - Invalid Session. Please ensure you Login first
+Status | Description
+------ + -----------
+200 | Success
+400 | Invalid Session. Please ensure you Login first
 
