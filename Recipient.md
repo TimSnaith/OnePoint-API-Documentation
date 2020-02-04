@@ -117,7 +117,9 @@ If there was no problem then the following in returned:
 ```
 
 #### Statuses
-* 200 - Success
-* 400 - Invalid Session. Please ensure you Login first
-* 400 - No such list found
-* 400 - There was a problem adding the recipients. Please contact OnePoint Global Support
+Status | Description
+------ | -----------
+200 | Success
+400 | Invalid Session. Please ensure you Login first
+400 | No such list found
+400 | There was a problem adding the recipients. Please contact OnePoint Global Support
