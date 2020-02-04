@@ -58,3 +58,7 @@ The API's are split into the following:
 * [Survey](Survey.md) - Survey Results
 * [Recipient](Recipient.md) - Upload Recipients with deduplication and mobile number validation
 
+### SDK's
+OnePoint Global is working on a number of client side libraries to support easier access to these API's.
+TYhe following SDK's are available:
+* [Microsoft .NET](dotNet.md) - the Microsoft .NET Client.
