@@ -57,6 +57,49 @@ Method: POST
   "LookupTest": true
 }
 ```
+#### Parameters
+Name | Description
+---- | -----------
+Title | The title of the recipient. For example, `Mr`, `Mrs`, `Ms`, but not limited to anything
+Firstname | The first name of the recipient
+Lastname | The last name of the recipient 
+MobileNumber | A valid mobile number for the recipient
+EmailAddress | An optional email address for the recipient
+User{n} | Ten optional user fields that can be used for anything. Up to 2014 characters in length.
+When | A date and time that can be used to control when their invite is sent out if the recipient list is connected to a survey
+LookupTest | A boolean value indicating whether the recipient's mobile number should be checked. If it is not a mobile number then it will be rejected and added to the error report.
+
+
+#### Duplication Testing
+It is possible to stop duplicate recipients being added to a recipient list. The checks are done against the existing
+list of recipients in the list and the new ones being added. The following describes the parameters that can be
+supplied in the optional `Duplication` parameter.
+
+##### Fields
+A list of fields separated by a comma that refer should be checked for duplication. These can be any from the following list:
+
+Name | Description
+---- | -----------
+tel | Mobile number
+email | Email address
+firstname | The first name of the recipient
+lastname | The last name of the recipient
+title | The title of the recipient
+user{n} | the user fields from 1 to 10
+
+These fields are used to look for existing recipients and if there is a match this will result in a duplcation error.
+
+##### Date & Limit
+The name of a field as listed in the `Fields` parameter that can be used to check against as a date.
+The limit is the number of days that the must be the difference between today and the date in the field before the recipient is not considered to be a duplicate.
+This supports that idea of adding recipients only if they have not been contacted in the last so many days.
+
+##### GenerateDate
+A boolean value that indicates whether the `Date` field should be updated by this process when the recipient is successfully added.
+This provides the ability for this process to maintain the Date field itself rather than you having to maintain it
+in your data.
+
+
 #### Returns
 If there were errors adding the recipients then a list of errors as an array of strings. For example:
 ```

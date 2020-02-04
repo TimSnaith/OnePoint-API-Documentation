@@ -2,6 +2,7 @@
 The Message API's allow you to send SMS messages acrosas a global network.
 
 ### Lookup
+Lookup a number on the network to see whether it is reachable and whether it is a mobile number.
 ```
 URL: https://api.1pt.mobi/gateway/api/Message/Lookup?number={number}
 Method: GET
@@ -37,6 +38,7 @@ NumberType | A string indicating the type of number - `Mobile`, `Landline` or `U
 * 400 - There was a problem with the Lookup. Please check your request and try again
 
 ### Send
+Send an SMS message anywhere in the world.
 ```
 URL: https://api.1pt.mobi/gateway/api/Message/Send
 Method: POST
