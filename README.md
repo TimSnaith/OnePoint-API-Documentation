@@ -11,7 +11,7 @@ Authentication is done using the following API:
 ```
 URL: https://api.1pt.mobi/gateway/api/Account/Login
 Method: POST
-Content: { "Username":"username", "Password":"password }
+Content: { "Username":"username", "Password":"password" }
 ```
 All API's will return either a success status (200) or a failure status which can vary depedning on the error. If the above API is successful then it will return a Session ID in the following format:
 ```
