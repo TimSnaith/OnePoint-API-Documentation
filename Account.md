@@ -14,7 +14,7 @@ Content: { "Username":"username", "Password":"password" }
 ```
 #### Statuses
 Status | Description
------- + -----------
+------ | -----------
 200 | Success
 400 | The username and/or password is incorrect
 
@@ -32,7 +32,7 @@ Content: "Uid" }
 ```
 #### Statuses
 Status | Description
------- + -----------
+------ | -----------
 200 | Success
 400 | The uid is invalid
 
@@ -48,7 +48,7 @@ Method: POST
 nothing
 #### Statuses
 Status | Description
------- + -----------
+------ | -----------
 200 | Success
 400 | Invalid Session. Please ensure you Login first
 
