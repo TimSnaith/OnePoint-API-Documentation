@@ -107,7 +107,7 @@ If there were errors adding the recipients then a list of errors as an array of 
   "Errors":["Error 1", "Error 2"]
 }
 ```
-If a look request was made then a list of these errors are also included.
+If a lookup request was made then a list of these errors are also included.
 If there duplication errors then a list of recipients that are duplicated are returned.
 If there was no problem then the following is returned:
 ```
