@@ -115,17 +115,17 @@ If there was no problem then the following is returned:
   "Status": "Success"
 }
 ```
-If there are errors then you can expect the following that they will take the following format:
+If there is a problem with the mobile number then you can expect the following that they will take the following format
 ```
 There was a problem with the following recipient {Title} {FirstName} {LastName {EmailAddres} {MobileNumber} {ErrorMessage}
 ```
+The current error message is `Invalid mobile number for`.
 
-Error Type | Description
------ | -----------
-Invalid mobile number | The mobile number must contain digits between 0 and 9 and be longer than 3 digits.
-Lookup Errors | Lookup Errors follow the following format
 
-**Lookup Errors**
+If there was a problem with the lookup of the mobile number then you can expect the following response
+```
+{ "Carrier": "Carrier-Value", "Message": "Message", "Number": "Number", "Reachable":"Reachable" }
+```
 
 Name | Description
 ---- | -----------
