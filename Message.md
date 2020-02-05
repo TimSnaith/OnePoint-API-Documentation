@@ -1,5 +1,5 @@
 ## Message
-The Message API's allow you to send SMS messages acrosas a global network.
+The Message API's allow you to send SMS messages across a global network.
 
 ### Lookup
 Lookup a number on the network to see whether it is reachable and whether it is a mobile number.
