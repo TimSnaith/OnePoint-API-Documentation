@@ -115,6 +115,24 @@ If there was no problem then the following is returned:
   "Status": "Success"
 }
 ```
+If there are errors then you can expect the following that they will take the following format:
+```
+There was a problem with the following recipient {Title} {FirstName} {LastName {EmailAddres} {MobileNumber} {ErrorMessage}
+```
+
+Error Type | Description
+----- | -----------
+Invalid mobile number | The mobile number must contain digits between 0 and 9 and be longer than 3 digits.
+Lookup Errors | Lookup Errors follow the following format
+
+**Lookup Errors**
+
+Name | Description
+---- | -----------
+Carrier | The name of the carrier. This can be any valid string or the word `Unknown`
+Message | A status message which varies depending on the success of the lookup and the carrier involved.
+Number | The number that was looked up
+Reachable | A boolean value indicating whether the number is reachable.
 
 #### Statuses
 Status | Description
