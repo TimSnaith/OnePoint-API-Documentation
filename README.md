@@ -66,5 +66,5 @@ The following SDK's are available:
 ### Reporting Issues
 OnePoint Global takes the quality of its software serious and customer satisfaction is extremely important.
 If you experience and issue then you should report it through the public [GitHub Issues](https://github.com/OnePointGlobal/OnePoint-API-Documentation/issues).
-**If you believe the tyhe issue is related to the security of the service then please contact us directly**.
+**If you believe the the issue is related to the security of the service then please contact us directly**.
 
