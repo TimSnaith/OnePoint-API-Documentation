@@ -60,7 +60,7 @@ The API's are split into the following:
 
 ### SDK's
 OnePoint Global is working on a number of client side libraries to support easier access to these API's.
-TYhe following SDK's are available:
+The following SDK's are available:
 * [Microsoft .NET](dotNET.md) - the Microsoft .NET Client.
 
 ### Reporting Issues
