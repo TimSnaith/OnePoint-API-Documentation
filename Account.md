@@ -9,6 +9,7 @@ Method: POST
 Content: { "Username":"username", "Password":"password" }
 ```
 #### Parameters
+
 Name | Description
 ---- | -----------
 Username | The account's user name. Cannot be blank.
@@ -20,6 +21,7 @@ Password | The account's password.
 ```
 The `SessionId` must be used in subsquent calls by placing it in the header a value with the name `SessionId`.
 #### Statuses
+
 Status | Description
 ------ | -----------
 200 | Success
@@ -34,15 +36,18 @@ Method: POST
 Content: "Uid" }
 ```
 #### Parameters
+
 Name | Description
 ---- | -----------
 Uid | The User Id available by logging into your account and checking your account details.
+
 #### Returns
 ```
 { "SessionId": "ABCCDEFG" }
 ```
 The `SessionId` must be used in subsquent calls by placing it in the header a value with the name `SessionId`.
 #### Statuses
+
 Status | Description
 ------ | -----------
 200 | Success
@@ -59,6 +64,7 @@ Method: POST
 #### Returns
 nothing
 #### Statuses
+
 Status | Description
 ------ | -----------
 200 | Success

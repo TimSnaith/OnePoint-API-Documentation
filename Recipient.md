@@ -58,6 +58,7 @@ Method: POST
 }
 ```
 #### Parameters
+
 Name | Description
 ---- | -----------
 Title | The title of the recipient. For example, `Mr`, `Mrs`, `Ms`, but not limited to anything
@@ -135,6 +136,7 @@ Number | The number that was looked up
 Reachable | A boolean value indicating whether the number is reachable.
 
 #### Statuses
+
 Status | Description
 ------ | -----------
 200 | Success

@@ -12,15 +12,18 @@ Method: POST
 }
 ```
 #### Parameters
+
 Name | Description
 ---- | -----------
 Keyword | The keyword which be between 3 and 50 characters long can can only contain alphanumerics
 FinishDate | The date the keyword expires. This should be set in the future.
+
 #### Returns
 ```
 nothing
 ```
 #### Statuses
+
 Status | Description
 ------ | -----------
 200 | Success
@@ -36,14 +39,17 @@ URL: https://api.1pt.mobi/gateway/api/Keyword/Delete?keyword={keyword}
 Method: DELETE
 ```
 #### Parameters
+
 Name | Description
 ---- | -----------
 keyword | The keyword that you wish to delete from your account
+
 #### Returns
 ```
 nothing
 ```
 #### Statuses
+
 Status | Description
 ------ | -----------
 200 | Success
@@ -66,6 +72,7 @@ Method: GET
 ]
 ```
 #### Statuses
+
 Status | Description
 ------ | -----------
 200 | Success

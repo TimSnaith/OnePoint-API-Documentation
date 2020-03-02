@@ -8,9 +8,11 @@ URL: https://api.1pt.mobi/gateway/api/Message/Lookup?number={number}
 Method: GET
 ```
 #### Parameters
+
 Name | Description
 ---- | -----------
 number | The number to lookup
+
 #### Returns
 ```
 {
@@ -23,6 +25,7 @@ number | The number to lookup
 }
 ```
 #### Return Parameters
+
 Name | Description
 ---- | -----------
 Number | The number that was looked up
@@ -33,6 +36,7 @@ Status | A string indicating the result of the lookup. Either `Success` or `Fail
 NumberType | A string indicating the type of number - `Mobile`, `Landline` or `Unknown`
 
 #### Statuses
+
 Status | Description
 ------ | -----------
 200 | Success
@@ -53,6 +57,7 @@ Method: POST
 }
 ```
 #### Parameters
+
 Name | Description
 ---- | -----------
 Source | The source of the message. This can be a short code, a long number or a branded value up to 11 characters long.
@@ -66,6 +71,7 @@ When | A date and time indicating when the message should be sent.
 nothing
 ```
 #### Statuses
+
 Status | Description
 ------ | -----------
 200 | Success

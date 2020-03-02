@@ -15,6 +15,7 @@ Method: POST
 { "The tiny url" }
 ```
 #### Statuses
+
 Status | Description
 ------ | -----------
 200 | Success
@@ -44,6 +45,7 @@ Method: POST
 }
 ```
 #### Statuses
+
 Status | Description
 ------ | -----------
 200 | Success

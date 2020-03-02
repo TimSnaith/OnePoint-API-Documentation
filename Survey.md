@@ -90,6 +90,7 @@ Method: POST
 }
 ```
 #### Return Parameters
+
 Name | Description
 ---- | -----------
 Recipients | The number of recipients in the survey's recipient list.
@@ -101,6 +102,7 @@ Abandoned | The number of abandoned interviews in the survey.
 Outstanding | The number of interviews outstnading in the survey.
 
 #### Statuses
+
 Status | Description
 ------ | -----------
 200 | Success
