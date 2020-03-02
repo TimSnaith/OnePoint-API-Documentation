@@ -29,8 +29,8 @@ The format parameter controls what format the data is return in. It can be any o
 
 Format | Description
 ------ | -----------
-CSV | Comm (`,`) delimited
-PIPE | Pipe (`|`) delimited
+CSV | Comm delimited
+PIPE | Pipe delimited
 TAB | Tab delimited
 XML | XML structured format
 JSON | JSON structured format
