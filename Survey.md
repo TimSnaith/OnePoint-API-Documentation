@@ -29,7 +29,7 @@ The format parameter controls what format the data is return in. It can be any o
 
 Format | Description
 ------ | -----------
-CSV | Comm delimited
+CSV | Comma delimited
 PIPE | Pipe delimited
 TAB | Tab delimited
 XML | XML structured format
