@@ -15,6 +15,7 @@ Method: GET
 }
 ```
 #### Parameters
+
 Name | Description
 ---- | -----------
 Format | Describes the format in which the results should be supplied. See below for more details
