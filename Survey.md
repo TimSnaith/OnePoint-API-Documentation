@@ -40,6 +40,7 @@ JSON | JSON structured format
 the survey results depending on the format requested.
 ```
 #### Statuses
+
 Status | Description
 ------ | -----------
 200 | Success
@@ -63,6 +64,7 @@ Method: GET
 The snapshot of a question varies depending on the type of question.
 ```
 #### Statuses
+
 Status | Description
 ------ | -----------
 200 | Success
