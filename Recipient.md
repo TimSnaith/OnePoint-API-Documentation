@@ -77,7 +77,7 @@ list of recipients in the list and the new ones being added. The following descr
 supplied in the optional `Duplication` parameter.
 
 ##### Fields
-A list of fields separated by a comma that refer should be checked for duplication. These can be any from the following list:
+A list of fields separated by a comma that refer to what should be checked for duplication. These can be any from the following list:
 
 Name | Description
 ---- | -----------
@@ -92,8 +92,8 @@ These fields are used to look for existing recipients and if there is a match th
 
 ##### Date & Limit
 The name of a field as listed in the `Fields` parameter that can be used to check against as a date.
-The limit is the number of days that the must be the difference between today and the date in the field before the recipient is not considered to be a duplicate.
-This supports that idea of adding recipients only if they have not been contacted in the last so many days.
+The limit is the number of days that must be the difference between today and the date in the field before the recipient is not considered to be a duplicate.
+This supports the idea of adding recipients only if they have not been contacted in the last so many days.
 
 ##### GenerateDate
 A boolean value that indicates whether the `Date` field should be updated by this process when the recipient is successfully added.
@@ -109,14 +109,14 @@ If there were errors adding the recipients then a list of errors as an array of 
 }
 ```
 If a lookup request was made then a list of these errors are also included.
-If there duplication errors then a list of recipients that are duplicated are returned.
+If there are duplication errors then a list of recipients that are duplicated are returned.
 If there was no problem then the following is returned:
 ```
 {
   "Status": "Success"
 }
 ```
-If there is a problem with the mobile number then you can expect the following that they will take the following format for each mobile number check:
+If there is a problem with the mobile number then you can expect the following report format for each mobile number check:
 ```
 There was a problem with the following recipient {Title} {FirstName} {LastName {EmailAddres} {MobileNumber} {ErrorMessage}
 ```
