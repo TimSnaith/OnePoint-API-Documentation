@@ -1,10 +1,10 @@
 # OnePoint API
 Welcome to the OnePoint API Documentation. This is for general use of OnePoint Global's Open API available on the end point https://api.1pt.mobi/gateway, which contains a limited copy of the documentation.
 
-The API is offers RESTful access to a set of capabilities that allow access to a global SMS network.
+The API offers RESTful access to a set of capabilities that allow access to a global SMS network.
 
 ## Working with OnePoint's API
-OnePoint's API requires authentication to be achieved to gain a session that is then used for subsequent requests to the API. It is then recommended that you discard the session in a propper manner.
+OnePoint's API requires authentication to be achieved to gain a session that is then used for subsequent requests to the API. It is then recommended that you discard the session in a proper manner.
 
 ### Authentication
 Authentication is done using the following API:
@@ -13,7 +13,7 @@ URL: https://api.1pt.mobi/gateway/api/Account/Login
 Method: POST
 Content: { "Username":"username", "Password":"password" }
 ```
-All API's will return either a success status (200) or a failure status which can vary depedning on the error. If the above API is successful then it will return a Session ID in the following format:
+All API's will return either a success status (200) or a failure status which can vary depending on the error. If the above API is successful then it will return a Session ID in the following format:
 ```
 { "SessionId": "ABCCDEFG" }
 ```
@@ -46,7 +46,7 @@ Every API will return a status which can be one of the following:
 Status | Description
 ------ | -----------
 200 | Success
-400 | Bad request. the HTTP message will vary depedning on the type of problem
+400 | Bad request. the HTTP message will vary depending on the type of problem
 
 ### API's
 The API's are split into the following:
@@ -64,7 +64,7 @@ The following SDK's are available:
 * [Microsoft .NET](dotNET.md) - the Microsoft .NET Client.
 
 ### Reporting Issues
-OnePoint Global takes the quality of its software serious and customer satisfaction is extremely important.
-If you experience and issue then you should report it through the public [GitHub Issues](https://github.com/OnePointGlobal/OnePoint-API-Documentation/issues).
-**If you believe the the issue is related to the security of the service then please contact us directly**.
+OnePoint Global is focused on continually improving the quality of its software where our customer's satisfaction is our No 1 priority.
+If you experience any issues then please report it through the public [GitHub Issues](https://github.com/OnePointGlobal/OnePoint-API-Documentation/issues).
+**If you believe the issue is related to the security of the service then please contact us directly**.
 
