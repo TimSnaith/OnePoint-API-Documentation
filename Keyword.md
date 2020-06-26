@@ -15,7 +15,7 @@ Method: POST
 
 Name | Description
 ---- | -----------
-Keyword | The keyword which be between 3 and 50 characters long can can only contain alphanumerics
+Keyword | The keyword which can be between 3 and 50 characters long can can only contain alphanumerics
 FinishDate | The date the keyword expires. This should be set in the future.
 
 #### Returns
@@ -29,7 +29,7 @@ Status | Description
 200 | Success
 400 | Invalid Session. Please ensure you Login first
 400 | The keyword is already registered
-400 | The keyword must be between 3 and 50 character long and can only contain alphanumerics
+400 | The keyword must be between 3 and 50 characters long and can only contain alphanumerics
 400 | There was a problem registering the keyword. Please contact OnePoint Global Support
 
 ### Delete
