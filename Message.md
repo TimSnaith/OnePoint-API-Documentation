@@ -61,7 +61,7 @@ Method: POST
 Name | Description
 ---- | -----------
 Source | The source of the message. This can be a short code, a long number or a branded value up to 11 characters long.
-Destination | The destination of the message. This must be a the full number prefixed with the country code and no leading zeroes.
+Destination | The destination of the message. This must be the full number prefixed with the country code and no leading zeros.
 Message | The text message to send. This can be up to 2000 characters long.
 Reply | A boolean value indicating whether the message can be replied to or not. If this is true then the destination may be replaced depending on desintation value and the route the message has to take to get to its destination.
 When | A date and time indicating when the message should be sent.
