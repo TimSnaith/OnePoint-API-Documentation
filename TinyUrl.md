@@ -54,5 +54,5 @@ Status | Description
 
 ### Custom Tiny URL's
 OnePoint supports custom Tiny URL's for each user of the API.
-It is possible for you to use the standard OnePoint Tiny URL (`1pt.mobi`) or for us to register a domain and this this
-up for you account. For more information on this please contact us directly.
+It is possible for you to use the standard OnePoint Tiny URL (`1pt.mobi`) or for us to register a domain and set this
+up for your account. For more information on this please contact us directly.
