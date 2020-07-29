@@ -19,7 +19,7 @@ All API's will return either a success status (200) or a failure status which ca
 ```
 The Session ID must be used in subsequent API calls by placing it in the header with the name `SessionId`. For example, to send an SMS the following API would be used:
 ```
-URL: https://api.1pt.mobi/gateway/api/Send
+URL: https://api.1pt.mobi/gateway/api/Message/Send
 Header:
 SessionId:"ABCDEFG"
 Method: POST
