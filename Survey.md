@@ -5,7 +5,7 @@ The Survey API's allow you to get survey results and assess the status of a surv
 Get your survey results.
 ```
 URL: https://api.1pt.mobi/gateway/api/Survey/GetResults
-Method: GET
+Method: POST
 {
   "Format": "sample string 1",
   "Header": true,
